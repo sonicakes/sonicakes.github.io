@@ -26,15 +26,15 @@ $(document).ready(function() {
 
         //change background depending on the temperature
         if (temp < 0) {
-          $('body').css('background', 'url("snowy.jpeg")');
+          $('body').css('background', 'url("snowy.jpg")');
           $('body').css('background-size', 'cover');
         }
         if(temp>0 && temp<20){
-          $('body').css('background', 'url("cloudy.jpeg")');
+          $('body').css('background', 'url("cloudy.jpg")');
           $('body').css('background-size', 'cover');
         }
         if(temp>20){
-          $('body').css('background', 'url("summer.jpeg")');
+          $('body').css('background', 'url("summer.jpg")');
           $('body').css('background-size', 'cover');
           $('body').css('background-repeat', 'no-repeat');
         }
