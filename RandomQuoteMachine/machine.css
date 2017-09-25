@@ -1,0 +1,40 @@
+body{
+  background: #159957;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Courgette', cursive;
+}
+#getQuote{
+  background: #159957;
+}
+#tweetQuote{
+  background: #155799;
+}
+
+.jumbotron{
+margin-top:10%;
+font-family: 'Dosis', sans-serif;
+text-align: center;
+}
+.pattern {
+  min-height:200px;
+}
+
+#circs {
+  background-color: #fff;
+  background-image:
+  linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+  linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
+  }
+
+.jumbotron p{
+  font-size: 26px;
+}
+.author{
+  font-style: italic;
+}
+.new{
+font-family: 'Annie Use Your Telescope', cursive;
+font-size: 26px;
+}
