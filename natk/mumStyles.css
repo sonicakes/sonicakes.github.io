@@ -1,0 +1,102 @@
+body{
+
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+
+#hero-block {
+  background-color: #000;
+
+}
+#hero-block div.container {
+
+  background-image: url("meeting-edited2.jpg");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: top;
+  /*background-size: cover;*/
+  max-width: 1110px;
+
+}
+i{
+padding: 15px;
+margin: 10px;
+color: rgba(106, 28, 0, 0.5);
+}
+.personal{
+  color: #607387;
+}
+.circles{
+border-radius: 50%;
+align-items: center;
+border: 1px solid black;
+text-align: center;
+
+height: 140px;
+width: 140px;
+
+
+}
+#content{
+  text-align: center;
+	margin-top: 3rem;
+  padding: 2rem;
+  margin-bottom: 3rem;
+    color:#efd5cc;
+	/*height:50%;*/
+	/*background: rgba(0,0,0,0.7)*/
+}
+.bio{
+  padding-top: 20px;
+
+}
+h2{
+padding-bottom: 20px;
+margin-top:20px;
+color: rgba(13, 3, 3, 0.5);
+}
+h1{
+  font-weight: 700;
+  letter-spacing: 2px;
+font-size: 2em;
+  font-family: 'Bad Script', cursive;
+  text-shadow: 2px 2px black;
+
+}
+.centered{
+  align-items: center;
+  text-align: center;
+}
+.padded{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.btn-outline-secondary {
+	background: 	#cce6ef;
+    color:black;
+  }
+  .flag {
+      display: inline-block;
+      width: 16px;
+      height: 11px;
+
+  }
+  .btn-primary{
+    margin-bottom: 20px;
+  }
+  .blue{
+    background-color:  #cce6ef;
+  }
+
+.profilePic{
+  max-height:150px;
+}
+.infoText{
+    background-color:#efd5cc;
+  padding-top: 10px;
+}
+.navbar-brand{
+    font-family: 'Bad Script', cursive;
+}
