@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Wikipedia Viewer</title>
+  </head>
+  <body>
+    <div class="container">
+          <div class="myForm">
+      <div class="row">
+
+    <div class="col">
+      <h1> <i class="fa fa-wikipedia-w" aria-hidden="true"></i>ikipedia Viewer</h1>
+
+
+      <p id = "searchRess">Type what you want to search and click the blue button</p>
+    </div>
+  </div>
+    <div class="row">
+      <div class="col-md-6 ml-auto mr-auto">
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1"><i class="fa fa-search" aria-hidden="true"></i></span>
+        <input type="text" id="given" class="form-control" placeholder="Your search item" aria-label="Search item" aria-describedby="basic-addon1">
+      </div>
+    </div>
+  </div>
+
+
+
+<br>
+<button id="search" class="btn btn-primary">Search</button>
+<div id="insert"></div>
+
+
+<p>Or click the  green button for random article</p>
+<button class="btn btn-success" id="random"> <i class="fa fa-random" aria-hidden="true"></i> Random Wiki article</button>
+
+</div>
+</div>
+</div>
+    <script src="viewer.js"></script>
+  </body>
+</html>
