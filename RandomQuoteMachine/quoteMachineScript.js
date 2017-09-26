@@ -10,7 +10,7 @@ $(document).ready(function() {
   });
 
 	$("#getQuote").on("click", function(object) {
-		$.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&random=" + Math.random() + "&callback=", function(object) {
+		$.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&random=" + Math.random() + "&callback=", function(object) {
 
       generatedQuote = object[0].content;
       authorQuote = object[0].title;
