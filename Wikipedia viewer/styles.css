@@ -2,7 +2,9 @@
   align-items: center;
   text-align: center;
   padding:5%;
-  background: #D3D3D3;
+  background-color: #677b9e;
+  background-image: url("https://www.transparenttextures.com/patterns/buried.png");
+  color: white;
   /*width: 50%;*/
 }
 .focusedInput {
@@ -14,6 +16,7 @@
 }
 .styled{
   background: beige;
+  color: black;
 
 }
 .info{
@@ -21,3 +24,5 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+/* This is mostly intended fo

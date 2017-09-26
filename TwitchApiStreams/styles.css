@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+div.col{
+  background-color: #24522d;
+color: white;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+#offline{
+  background-color: #2d3745;
+color: white;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
