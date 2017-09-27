@@ -5,28 +5,26 @@ $(document).ready(function() {
 		//getting JSON data about streams
 		$.getJSON(jsonUrl, function(json) {
 			if (json.stream === null) {
-				$("#new").append("<div class='row'><div class='col' style='border: 1px solid #000; background: #2d3745; color: white;'><p>" + streamers[i] + " is offline</p></div></div>");
+				$("#offlinePlayers").append("<div class='row'><div class='col'><p>" + streamers[i] + " is offline</p></div></div>");
 
-				console.log("The user" + streamers[i] + "is offline");
+				// console.log("The user" + streamers[i] + "is offline");
 			} else {
-				console.log(json);
-        var html = '<div class="row"><div class="col" style="border: 1px solid #000">';
+				// console.log(json);
+        var html = '<div class="row"><div class="col">';
 				  // html += "<img class='img-fluid' style = 'max-height: 100px; border-radius: 45%;' src = '" + json.stream.channel.logo + "' " + "alt='" + "'></div>";
-					html += "<img class='float-left' style = 'max-height: 50px; border-radius: 45%;' src = '" + json.stream.channel.logo + "' " + "alt='" + "'>";
+				html += "<img class='float-left' style = 'max-height: 50px; border-radius: 45%;' src = '" + json.stream.channel.logo + "' " + "alt='" + "'>";
 
-        html += "<p><a style ='color:white;'' target='_blank' href=' + json.stream.channel.url + '><strong>" + streamers[i] + "</strong></a>"
-				 + " is " + json.stream.stream_type + "</p></div>";
+        html += "<p><a style ='color:white;'' target='_blank' href='" + json.stream.channel.url + "'><strong>" + streamers[i] + "</strong></a>"
+				 	+ " is " + json.stream.stream_type + "</p></div>";
 
         html += "<div class='col'style='border: 1px solid #000'><p>Playing " + json.stream.game + "</p></div>";
 
         // html += "<img src = '" + json.stream.preview.medium + "' " + "alt='" + "'>"
         // html += '<div class="col"style="border: 1px solid #000"><a style ="color:black;" target="_blank" href="' + json.stream.channel.url + '">GO to their channel</a>';
         html += "</div>";
-        $("#new").append(html);
+        $("#onlinePlayers").append(html);
 
 			}
 		});
-
-    console.log('test');
 	});
 });

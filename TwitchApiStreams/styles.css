@@ -4,13 +4,14 @@
 }
 
 
-div.col{
+#onlinePlayers {
   background-color: #24522d;
-color: white;
+  color: white;
   background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
-#offline{
+
+#offlinePlayers {
   background-color: #2d3745;
-color: white;
+  color: white;
   background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
