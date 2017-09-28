@@ -27,41 +27,38 @@ li{
 border:none;
 
 }
-.background{
-    background-image: url("images/dark-forest.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.nav a{
+
+
+
+a.nav-link{
   color:white;
 }
-h1{
-  font-family: "Sprinklescolors";
-  font-size: 52px;
-  color:#7b1842; /*wine red*/
-}
 
-h2{
-  font-size:22px;
-    color:#7b1842; /*wine red*/
-}
 /* The hero image */
-.hero-image {
-    /* The image used */
-    background-image: url("images/dark-forest.jpg");
-    /* Set a specific height */
-    height: 100rem;
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    /*background-size: cover;*/
-    /*position: relative;*/
+#hero-image div.container {
+
+  background-image: url("images/dark-forest.jpg");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: top;
+  /*background-size: cover;*/
+  /*max-width: 1110px;*/
+
+}
+div.alert.alert-light{
+  background: none;
+  color:white;
+  text-align: center;
 }
 
+ul.nav.justify-content-center {
+  text-transform: uppercase;
+}
 /* Place text in the middle of the image */
 .hero-text {
-    padding-top: 15rem;
+
     text-align: center;
     /*position: absolute;*/
     /*top: 50%;*/
@@ -69,14 +66,16 @@ h2{
     /*transform: translate(-50%, -50%);*/
     color: black;
     opacity:100%;
+    padding-top: 20rem;
+    padding-bottom:  20rem;
     /*text-shadow: 2px 2px #333;*/
 
 }
 .btn{
   color:#7b1842;
   background-color:none;
-  font-family:"Raleway";
-margin-top: 25rem;
+
+
   text-align:center;
   align-items: center;
   font-size: 22px;
