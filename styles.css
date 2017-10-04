@@ -74,11 +74,13 @@ ul.nav.justify-content-center {
 .btn{
   color:#7b1842;
   background-color:none;
-
-
   text-align:center;
   align-items: center;
   font-size: 22px;
   border:1px solid #7b1842;
 
+}
+
+.btn:hover{
+background:none;
 }
