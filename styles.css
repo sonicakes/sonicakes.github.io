@@ -31,19 +31,19 @@ border:none;
 
 
 a.nav-link{
-  color:white;
+  color:black;
 }
 
 /* The hero image */
 #hero-image div.container {
 
-  background-image: url("images/dark-forest.jpg");
+  background-image: url("images/thongs.jpg");
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-repeat: no-repeat;
   background-position: center;
-  background-position-y: top;
-  /*background-size: cover;*/
+  /*background-position-y: top;*/
+  background-size: cover;
   /*max-width: 1110px;*/
 
 }
@@ -66,7 +66,7 @@ ul.nav.justify-content-center {
     /*transform: translate(-50%, -50%);*/
     color: black;
     opacity:100%;
-    padding-top: 20rem;
+    padding-top: 10rem;
     padding-bottom:  20rem;
     /*text-shadow: 2px 2px #333;*/
 
