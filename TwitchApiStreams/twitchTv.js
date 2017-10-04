@@ -5,7 +5,7 @@ $(document).ready(function() {
 		//getting JSON data about streams
 		$.getJSON(jsonUrl, function(json) {
 			if (json.stream === null) {
-				$("#offlinePlayers").append("<div class='row'><div class='col'><p>" + streamers[i] + " is offline</p></div></div>");
+				$("#offlinePlayers").append("<div class='row'><div class='col'><p>" + "<em>" + streamers[i] + "</em>"+ " is offline</p></div></div>");
 
 				// console.log("The user" + streamers[i] + "is offline");
 			} else {
@@ -17,7 +17,7 @@ $(document).ready(function() {
         html += "<p><a style ='color:white;'' target='_blank' href='" + json.stream.channel.url + "'><strong>" + streamers[i] + "</strong></a>"
 				 	+ " is " + json.stream.stream_type + "</p></div>";
 
-        html += "<div class='col'style='border: 1px solid #000'><p>Playing " + json.stream.game + "</p></div>";
+        html += "<div class='col'><p>Playing " + json.stream.game + "</p></div>";
 
         // html += "<img src = '" + json.stream.preview.medium + "' " + "alt='" + "'>"
         // html += '<div class="col"style="border: 1px solid #000"><a style ="color:black;" target="_blank" href="' + json.stream.channel.url + '">GO to their channel</a>';
