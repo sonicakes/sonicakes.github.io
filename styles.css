@@ -37,7 +37,7 @@ a.nav-link{
 /* The hero image */
 #hero-image div.container {
 
-  background-image: url("images/thongs.jpg");
+  background-image: url("images/thongs-opt.jpg");
   /* Create the parallax scrolling effect */
   /*background-attachment: fixed;*/
   background-repeat: no-repeat;
