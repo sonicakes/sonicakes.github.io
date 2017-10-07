@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
+	</script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js">
+	</script>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="styles.css" rel="stylesheet">
+    <title>Java Script Drum Set</title>
+  </head>
+  <body>
+    <audio id="soundA" controls style="display:none" src="sounds/boom.wav" type="audio/wav"></audio>
+    <audio id="soundS" controls style="display:none" src="sounds/clap.wav" type="audio/wav">  </audio>
+    <audio id="soundD" controls style="display:none" src="sounds/hihat.wav" type="audio/wav"></audio>
+    <audio id="soundF" controls style="display:none" src="http://www.mariomayhem.com/downloads/sounds/mario_64_sound_effects/mario-doh.WAV" type="audio/wav"></audio>
+    <audio id="soundG" controls style="display:none" src="sounds/openhat.wav" type="audio/wav"></audio>
+    <audio id="soundH" controls style="display:none" src="sounds/ride.wav" type="audio/wav"></audio>
+    <audio id="soundJ" controls style="display:none" src="http://www.mariomayhem.com/downloads/sounds/mario_64_sound_effects/mario-okiedokie.WAV" type="audio/wav"></audio>
+    <audio id="soundK" controls style="display:none" src="sounds/tink.wav" type="audio/wav"></audio>
+    <audio id="soundL" controls style="display:none" src="sounds/tom.wav" type="audio/wav"></audio>
+
+    <audio id="soundQ" controls style="display:none" src="sounds/chime.mp3" type="audio/mp3"></audio>
+    <audio id="soundW" controls style="display:none" src="sounds/gliss.mp3" type="audio/mp3">  </audio>
+    <audio id="soundE" controls style="display:none" src="http://www.freesfx.co.uk/rx2/mp3s/3/14767_1460060035.mp3" type="audio/mp3"></audio>
+    <audio id="soundR" controls style="display:none" src="http://www.mariomayhem.com/downloads/sounds/mario_64_sound_effects/peach2.WAV" type="audio/wav"></audio>
+    <audio id="soundT" controls style="display:none" src="sounds/templeblocks.mp3" type="audio/mp3"></audio>
+    <audio id="soundY" controls style="display:none" src="sounds/timpaniBoing.mp3" type="audio/mp3"></audio>
+    <audio id="soundU" controls style="display:none" src="sounds/triangle.mp3" type="audio/mp3"></audio>
+    <audio id="soundI" controls style="display:none" src="sounds/trumpet.mp3" type="audio/mp3"></audio>
+    <audio id="soundO" controls style="display:none" src="http://www.mariomayhem.com/downloads/sounds/mario_64_sound_effects/mario-whoa.WAV" type="audio/wav"> </audio>
+    <audio id="soundP" controls style="display:none" src="sounds/scrape.mp3" type="audio/mp3"> </audio>
+
+    <audio id="soundZ" controls style="display:none" src="sounds/snare.wav" type="audio/wav"></audio>
+    <audio id="soundX" controls style="display:none" src="http://www.freesfx.co.uk/rx2/mp3s/3/15325_1460400694.mp3" type="audio/mp3">  </audio>
+    <audio id="soundC" controls style="display:none" src="http://www.freesfx.co.uk/rx2/mp3s/3/14779_1460060680.mp3" type="audio/mp3"></audio>
+    <audio id="soundV" controls style="display:none" src="http://www.mariomayhem.com/downloads/sounds/mario_64_sound_effects/yoshi.WAV" type="audio/wav"></audio>
+    <audio id="soundB" controls style="display:none" src="sounds/whale.mp3" type="audio/mp3"></audio>
+    <audio id="soundN" controls style="display:none" src="sounds/kick.wav" type="audio/wav"></audio>
+    <audio id="soundM" controls style="display:none" src="sounds/tambourine.mp3" type="audio/mp3"></audio>
+
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-center">JavaScript Drum Kit</h1>
+          <h4 class="text-center mb-3">Play with your keyboard: press the key and hear the corresponding sound. The pink green keys are instruments, whereas pink keys are surprise :) </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <div class="mb-2 kbd text-center"id="Q">Q</div>
+          <div class="mb-2 kbd text-center" id="W">W</div>
+          <div class="mb-2 kbd text-center" id="E">E</div>
+          <div class="mb-2 kbd text-center surp" id="R">R</div>
+          <div class="mb-2 kbd text-center" id="T">T</div>
+          <div class="mb-2 kbd text-center" id="Y">Y</div>
+          <div class="mb-2 kbd text-center" id="U">U</div>
+          <div class="mb-2 kbd text-center" id="I">I</div>
+          <div class="mb-2 kbd text-center surp" id="O">O</div>
+          <div class="mb-2 kbd text-center" id="P">P</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <div class="mb-2 ml-auto kbd text-center" id="A">A</div>
+          <div class="mb-2 kbd text-center" id="S">S</div>
+          <div class="mb-2 kbd text-center" id="D">D</div>
+          <div class="mb-2 kbd text-center surp" id="F">F</div>
+          <div class="mb-2 kbd text-center" id="G">G</div>
+          <div class="mb-2 kbd text-center" id="H">H</div>
+          <div class="mb-2 kbd text-center surp" id="J">J</div>
+          <div class="mb-2 kbd text-center" id="K">K</div>
+          <div class="mb-2 mr-auto kbd text-center" id="L">L</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <div class="mb-2 kbd text-center"id="Z">Z</div>
+          <div class="mb-2 kbd text-center"id="X">X</div>
+          <div class="mb-2 kbd text-center"id="C">C</div>
+          <div class="mb-2 kbd text-center surp"id="V">V</div>
+          <div class="mb-2 kbd text-center"id="B">B</div>
+          <div class="mb-2 kbd text-center"id="N">N</div>
+          <div class="mb-2 kbd text-center"id="M">M</div>
+        </div>
+      </div>
+    </div>
+<script src="script.js"> </script>
+  </body>
+</html>
