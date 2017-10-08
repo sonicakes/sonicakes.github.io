@@ -17,7 +17,14 @@
 body{
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
-
+  background-image: url("images/sun-opt.jpg");
+  /* Create the parallax scrolling effect */
+  /*background-attachment: fixed;*/
+  background-repeat: no-repeat;
+  /*background-position: center;*/
+  /*background-position-y: top;*/
+  background-size: cover;
+  /*max-width: 1110px;*/
 
 }
 .content{
@@ -37,22 +44,29 @@ a.nav-link{
 /* The hero image */
 #hero-image div.container {
 
-  background-image: url("images/thongs-opt.jpg");
+  /*background-image: url("images/thongs-opt.jpg");
   /* Create the parallax scrolling effect */
   /*background-attachment: fixed;*/
-  background-repeat: no-repeat;
-  background-position: center;
+  /*background-repeat: no-repeat;
+  /*background-position: center;*/
   /*background-position-y: top;*/
-  background-size: cover;
-  /*max-width: 1110px;*/
+  /*background-size: cover;*/*/
+  /*max-width: 1110px;*/*/
 
+}
+p{
+  color: black;
+  font-family: "Raleway";
 }
 div.alert.alert-light{
   background: none;
   color:white;
   text-align: center;
 }
-
+.caption{
+  font-family: "Raleway";
+  font-weight: bold;
+}
 ul.nav.justify-content-center {
   text-transform: uppercase;
 }
@@ -64,7 +78,7 @@ ul.nav.justify-content-center {
     /*top: 50%;*/
     /*left: 50%;*/
     /*transform: translate(-50%, -50%);*/
-    color: black;
+    color: white;
     opacity:100%;
     padding-top: 10rem;
     padding-bottom:  20rem;
