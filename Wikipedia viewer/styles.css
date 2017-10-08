@@ -2,10 +2,13 @@
   align-items: center;
   text-align: center;
   padding:5%;
-  background-color: #677b9e;
-  background-image: url("https://www.transparenttextures.com/patterns/buried.png");
+  background-color: rgba(0,0,0,0.8);
+
   color: white;
   /*width: 50%;*/
+}
+.body{
+    background-image: url("images/books.jpg");
 }
 .focusedInput {
     border-color: rgba(82,168,236,.8);
@@ -24,5 +27,3 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
-/* This is mostly intended fo

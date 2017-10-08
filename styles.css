@@ -1,7 +1,7 @@
-@font-face {
+/*@font-face {
     font-family: "Raleway";
     src: url('Raleway-Regular.ttf') format("truetype");
-}
+}*/
 @font-face {
     font-family: "Sunshine Boulevard";
     src: url('Sunshine-Boulevard.ttf') format("truetype");
@@ -17,9 +17,9 @@
 body{
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
-  background-image: url("images/sun-opt.jpg");
+  background-image: url("images/sun2.jpg");
   /* Create the parallax scrolling effect */
-  /*background-attachment: fixed;*/
+  background-attachment: fixed;
   background-repeat: no-repeat;
   /*background-position: center;*/
   /*background-position-y: top;*/
@@ -34,13 +34,18 @@ li{
 border:none;
 
 }
-
+h4:hover{
+  text-decoration: none;
+  color: brown;
+}
 
 
 a.nav-link{
-  color:black;
+  color:white;
 }
-
+a.nav-link:hover{
+  color:brown;
+}
 /* The hero image */
 #hero-image div.container {
 
@@ -63,10 +68,10 @@ div.alert.alert-light{
   color:white;
   text-align: center;
 }
-.caption{
+/*h4{
   font-family: "Raleway";
-  font-weight: bold;
-}
+  font-weight: 800;
+}*/
 ul.nav.justify-content-center {
   text-transform: uppercase;
 }
@@ -85,16 +90,6 @@ ul.nav.justify-content-center {
     /*text-shadow: 2px 2px #333;*/
 
 }
-.btn{
-  color:#7b1842;
-  background-color:none;
-  text-align:center;
-  align-items: center;
-  font-size: 22px;
-  border:1px solid #7b1842;
-
-}
-
-.btn:hover{
-background:none;
+btn.btn-outline-light:hover{
+  color:black;
 }
