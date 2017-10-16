@@ -14,6 +14,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="styles.css" rel="stylesheet">
     <title>Java Script Drum Set</title>
+    <style>
+    /*large*/
+    @media (min-width:992px) {
+.kbd{
+  width: 5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+    }
+    </style>
   </head>
   <body>
     <audio id="soundA" controls style="display:none" src="sounds/boom.wav" type="audio/wav"></audio>
@@ -47,13 +57,14 @@
 
 
 
-    <div class="container">
+    <div class="container mt-5">
       <div class="row">
         <div class="col">
-          <h1 class="text-center">JavaScript Drum Kit</h1>
+          <h1 class="text-center mx-auto">JavaScript Drum Kit</h1>
           <h4 class="text-center mb-3">Play with your keyboard or mobile phone: press or click the key and hear the sound. The green keys are instruments, whereas pink keys are surprise :) </h2>
         </div>
       </div>
+
       <div class="row">
         <div class="col text-center">
           <div class="mb-2 kbd text-center"id="Q">Q</div>
@@ -93,6 +104,7 @@
         </div>
       </div>
     </div>
+
 <script src="script.js"> </script>
   </body>
 </html>
