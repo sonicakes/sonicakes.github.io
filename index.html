@@ -45,8 +45,8 @@
 
             <div class="hero-text">
               <h1 style="font-family: 'Sprinklescolors';font-size: 52px; color:white;">I am Sonia Parker</h1>
-              <h3 style="font-family: 'Raleway';font-size: 22px; color:white;">Designer|Developer</h3>
-              <button type="button" style="font-family: 'Raleway';"class="btn btn-light mb-3 mt-3"><a href=#projects>Explore my works</a></button>
+              <h3 style="font-family: 'Raleway';font-size: 22px; color:white;">Designer | Developer</h3>
+              <button type="button" style="font-family: 'Raleway'; border:solid 2px white;"class = "btn btn-info mb-3 mt-3"><a href=#projects style="color:white">Explore my works</a></button>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@
 <div class = 'container monster'>
   <div class="row">
     <div class="col">
-      <div class="card mb-5">
+      <div class="card mb-5 bg-light text-dark">
   <div class="card-body">
   <p class="lead text-justify"id="aboutMe">I am Sonia Parker and I live in Sydney, Australia. I was born in Russia and moved to Australia in 2015. I am a web designer and front-end developer with a degree in Digital Design (Curtin University). My professional skills include web design and development
 using HTML5 and CSS3, including Bootstrap 4; Java Script, including jQuery; Photoshop CS, Adobe Illustrator. </p>
@@ -73,22 +73,28 @@ using HTML5 and CSS3, including Bootstrap 4; Java Script, including jQuery; Phot
   </div>
   </div>
 <div class="row">
-  <div class="col">
-  <div style="font-family: 'Raleway'; color: white;" class="alert alert-light" role="alert">
-<h3 id="projects">Projects I have completed:</h3>
+  <div class="col-8 mx-auto">
+  <div style="font-family: 'Raleway';" class="card bg-light border-light mb-2 text-dark">
+    <div class="card-body">
+<h4 class="text-center" id="projects">Projects I have completed:</h3>
+</div>
   </div> -->
 </div>
 </div>
 
 <div class = 'row'>
   <div class = 'col'>
+      <a target="_blank" href = 'https://sonicakes.github.io/Local%20Weather%20App/'>
     <img src='images/weather.jpg' class = 'img-responsive img-thumbnail' alt = "Local Weather App">
+  </a>
     <div class = 'caption'>
     <a target="_blank" href = 'https://sonicakes.github.io/Local%20Weather%20App/'>  <h4 style="color: white; font-family: 'Raleway';font-weight: 700;">Local Weather App</h4></a>
     </div>
   </div>
   <div class = 'col'>
+      <a target="_blank" href="https://sonicakes.github.io/Wikipedia%20viewer/">
     <img src = 'images/wiki.jpg' class = 'img-responsive img-thumbnail' alt = 'Wikipedia Viewer'>
+  </a>
     <div class = 'caption'>
       <a target="_blank" href="https://sonicakes.github.io/Wikipedia%20viewer/">
 
@@ -96,14 +102,18 @@ using HTML5 and CSS3, including Bootstrap 4; Java Script, including jQuery; Phot
     </div>
   </div>
   <div class = 'col'>
+      <a target="_blank" href="https://sonicakes.github.io/RandomQuoteMachine/">
     <img src = "images/quote.jpg" class = 'img-responsive img-thumbnail' alt = "Quote Generator">
+  </a>
     <div class = 'caption'>
       <a target="_blank" href="https://sonicakes.github.io/RandomQuoteMachine/">
       <h4 style="color: white;">Random Quote Generator</h4></a>
     </div>
   </div>
   <div class = 'col'>
+    <a target="_blank" href="https://sonicakes.github.io/natk/">
     <img src = 'images/mum.jpg' class = 'img-responsive img-thumbnail' alt = 'Mums website'>
+  </a>
     <div class = 'caption'>
       <a target="_blank" href="https://sonicakes.github.io/natk/">
       <h4 style="color: white;">Natalia Kniazeva: English and Spanish Tutor</h4></a>
@@ -116,14 +126,18 @@ using HTML5 and CSS3, including Bootstrap 4; Java Script, including jQuery; Phot
 
 
   <div class = 'col'>
+    <a target="_blank" href="https://sonicakes.github.io/TwitchApiStreams/">
     <img src = 'images/twitch.jpg' class = 'img-responsive img-thumbnail' alt = 'Twitch Api Stream'>
+  </a>
     <div class = 'caption'>
       <a target="_blank" href="https://sonicakes.github.io/TwitchApiStreams/">
       <h4 style="color: white;">Twitch Streaming Channels</h4></a>
     </div>
   </div>
   <div class = 'col'>
+    <a target="_blank" href="https://sonicakes.github.io/JSDrumKit/">
     <img src = 'images/drumkit.jpg' class = 'img-responsive img-thumbnail' alt = 'JS Drumkit'>
+  </a>
     <div class = 'caption'>
       <a target="_blank" href="https://sonicakes.github.io/JSDrumKit/">
       <h4 style="color: white;">JavaScript Drum Kit</h4></a>
@@ -144,13 +158,21 @@ using HTML5 and CSS3, including Bootstrap 4; Java Script, including jQuery; Phot
     </div>
   </div>
 </div>
-<div class="row">
-  <div class="col">
-    <div class="card mb-5">
-<div class="card-body">
-<p id="contactMe">Contact Me</p>
-</div>
-</div>
+<div style="font-family: 'Raleway';" class="row">
+  <div class="col-10 mx-auto bg-light text-dark mt-3 py-3 rounded">
+    <h3 class="text-center"id="contactMe">Contact Me</h3>
+    <form >
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">Your email adress is safe with me!</small>
+      </div>
+      <div class="form-group">
+   <label for="exampleFormControlTextarea1">Your message here</label>
+   <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your message" rows="3"></textarea>
+ </div>
+      <button type="submit" class="btn btn-info">Submit</button>
+    </form>
 </div>
 </div>
 <div class="row">

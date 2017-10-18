@@ -1,7 +1,4 @@
-/*@font-face {
-    font-family: "Raleway";
-    src: url('Raleway-Regular.ttf') format("truetype");
-}*/
+
 @font-face {
     font-family: "Sunshine Boulevard";
     src: url('Sunshine-Boulevard.ttf') format("truetype");
@@ -21,13 +18,15 @@ body{
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-repeat: no-repeat;
-  /*background-position: center;*/
-  /*background-position-y: top;*/
   background-size: cover;
-  /*max-width: 1110px;*/
+}
+.caption a:hover{
+  text-decoration: none;
 
 }
-
+.caption a:hover{
+    color:brown;
+}
 .monster{
   background: rgba(0,0,0,0.5);
 }
@@ -36,13 +35,7 @@ body{
 }
 li{
 border:none;
-
 }
-h4:hover{
-  text-decoration: none;
-  color: brown;
-}
-
 
 a.nav-link{
   color:white;
@@ -50,32 +43,13 @@ a.nav-link{
 a.nav-link:hover{
   color:brown;
 }
-/* The hero image */
-#hero-image div.container {
 
-  /*background-image: url("images/thongs-opt.jpg");
-  /* Create the parallax scrolling effect */
-  /*background-attachment: fixed;*/
-  /*background-repeat: no-repeat;
-  /*background-position: center;*/
-  /*background-position-y: top;*/
-  /*background-size: cover;*/*/
-  /*max-width: 1110px;*/*/
-
-}
 p{
   color: black;
   font-family: "Raleway";
 }
-div.alert.alert-light{
-  background: none;
-  color:white;
-  text-align: center;
-}
-/*h4{
-  font-family: "Raleway";
-  font-weight: 800;
-}*/
+
+
 ul.nav.justify-content-center {
   text-transform: uppercase;
 }
@@ -88,9 +62,25 @@ padding-top: 5px;
 padding-bottom: : 5px;
     margin-top: 10rem;
     margin-bottom:  20rem;
-    /*text-shadow: 2px 2px #333;*/
 
 }
-btn.btn-outline-light:hover{
-  color:black;
+button a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+/* Zoom In #1 */
+img.img-thumbnail{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+img.img-thumbnail:hover{
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+  cursor: pointer;
 }
