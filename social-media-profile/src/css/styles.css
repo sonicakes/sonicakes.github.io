@@ -1,0 +1,17 @@
+body {
+  font-family: 'Quattrocento Sans', sans-serif; }
+
+#landing {
+  background-image: url("../img/back.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+  #landing .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    min-height: 700px; }
+
+img {
+  max-height: 300px; }
