@@ -69,8 +69,8 @@
 
     </div>
 
-          <div class="col-lg-6">
-            <img src="img/caviar.jpg" class="img-fluid rounded-circle pl-3 pt-3">
+          <div class="col-md-6 mx-auto">
+            <img src="img/caviar.jpg" class="img-fluid rounded-circle pl-3 py-5">
         </div>
       </div>
       <!-- Button "back to top" -->
@@ -82,28 +82,55 @@
 
 
     </div>
-    </div>
+  </div> <!--end About section-->
 
     <!-- Menu section -->
-        <div id="exploreContent" class="bg-light text-dark">
+        <div id="menu-content" class="bg-dark text-light">
           <div class="container">
             <div class="row">
               <div class="col">
-              <img src="img/menu.jpg" class="img-fluid rounded py-3">
+                <h3 class="text-center text-light p-3"><strong>Menu</strong></h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <table class="table table-hover table-dark">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">Username</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
             </div>
         </div>
-        <!-- Button "back to top" -->
-        <!-- <div class="row">
-          <div class="col">
-            <div style="color:#CC0000;"class="float-right"><i class="fa fa-3x fa-chevron-circle-up" aria-hidden="true"></i></div>
-      </div>
-          </div> -->
 
         </div>
       </div>
 
       <!-- Happenings section -->
-          <div id="happenings-content" class="bg-dark text-light">
+          <div id="happenings-content" class="bg-light">
             <div class="container">
               <div class="row">
                  <div class="col p-3">
@@ -113,8 +140,8 @@
                 </div>
                 <div class="row">
                   <div class="col">
-                <div class="card-deck">
-  <div class="card text-dark">
+                <div class="card-deck pb-5">
+  <div class="card text-light bg-dark">
     <img class="card-img-top" src="img/babushka.jpg" alt="Card image cap">
     <div class="card-body">
       <h4 class="card-title">Card title</h4>
@@ -122,7 +149,7 @@
 
     </div>
   </div>
-  <div class="card text-dark">
+  <div class="card text-light bg-dark">
     <img class="card-img-top" src="img/moscow.jpg" alt="Card image cap">
     <div class="card-body">
       <h4 class="card-title">Card title</h4>
@@ -130,7 +157,7 @@
 
     </div>
   </div>
-  <div class="card text-dark">
+  <div class="card text-light bg-dark">
     <img class="card-img-top" src="img/pirog.jpg" alt="Card image cap">
     <div class="card-body">
       <h4 class="card-title">Card title</h4>
@@ -141,14 +168,63 @@
 </div>
 </div>
 </div>
-                <!-- Button "back to top" -->
-                <!-- <div class="row">
-                  <div class="col p-2">
-                    <div class="float-right"><a style="color:#CC0000;"href="#landing"><i class="fa fa-3x fa-chevron-circle-up" aria-hidden="true"></i></a></div>
-              </div>
-                  </div> -->
           </div><!--end container-->
         </div><!--end happenings section-->
+
+        <!-- Contact section -->
+            <div id="contact-content" class="bg-dark text-light">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <h3 class="text-center p-2"><strong>Contact Us</strong></h3>
+                <p class="text-center">Phone<br>
+                Adress<br>
+              Opening hours<br></p>
+            </div>
+              </div>
+              <div class="row">
+                <div class="col m-3">
+                  <form class="bg-light text-dark p-3 rounded">
+                    <h3>Send Us a Message</h3>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputUsername">Phone number</label>
+                  <input type="text" class="form-control" id="exampleInputUsername" aria-describedby="phoneHelp" placeholder="Enter Phone Number">
+
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputMessage">Message</label>
+                  <textarea class="form-control" id="exampleInputMessage" placeholder="Your Message"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-outline-dark btn-block">Submit</button>
+              </form>
+                </div>
+                <div class="col">
+                  <img src="img/menu.jpg" class="p-3 img-fluid rounded">
+                </div>
+              </div>
+
+
+
+            </div> <!--end of container-->
+
+          </div> <!--end contact section-->
+          <!-- Footer -->
+          <footer class="bg-danger text-light" id="ourFooter">
+            <div class="container">
+              <div class="row">
+                <div class="col text-center pt-2">
+                  <h3 style="font-family:Kaushan Script;">Russian Feast</h3>
+                  <p>Copyright &copy; 2017</p>
+                </div>
+              </div>
+            </div>
+          </footer>
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
