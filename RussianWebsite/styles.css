@@ -7,7 +7,7 @@ margin: 0;
 
 
 #landing {
-  background-image: url("img/food.jpg");
+  background-image: url("img/newPattern.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -20,3 +20,20 @@ margin: 0;
     position: absolute;
     width: 100%;
     min-height: 1000px; }
+
+    #menu-content {
+      background-image: url("img/newPattern.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      min-height: 1000px;
+      width: 100%;
+    }
+    #contact-content {
+      background-image: url("img/newPattern.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      min-height: 1000px;
+      width: 100%;
+    }
