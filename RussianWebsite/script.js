@@ -6,10 +6,12 @@ window.addEventListener("scroll", function() {
       $('nav').addClass("bg-danger");
       $('nav').removeClass("bg-none");
       $("#topButton").show();
+      $("#navBr").addClass('scroll-down');
     } else{
         $('nav').removeClass("bg-danger");
         $('nav').addClass("bg-none");
         $("#topButton").hide();
+        $("#navBr").removeClass('scroll-down');
 
 
     // }

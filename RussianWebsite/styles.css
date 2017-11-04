@@ -1,3 +1,5 @@
+
+
 * {
 border: 0 none;
 outline: 0;
@@ -6,8 +8,25 @@ margin: 0;
 }
 
 
+@font-face {
+    font-family: "RussianLand";
+    src: url('fonts/RussianLand.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Rock-It";
+    src: url('rock-it.regular.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Rock-It";
+    src: url('rock-it.regular.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Rock-It";
+    src: url('rock-it.regular.ttf') format("truetype");
+}
+
 #landing {
-  background-image: url("img/newPattern.png");
+  background-image: url("img/food.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -16,7 +35,7 @@ margin: 0;
 }
 
   #landing .overlay {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     width: 100%;
     min-height: 1000px; }
@@ -37,3 +56,9 @@ margin: 0;
       min-height: 1000px;
       width: 100%;
     }
+.navbar-light .navbar-brand{
+  color:rgb(237, 28, 36);
+}
+.navbar-light .navbar-brand.scroll-down{
+  color:white;
+}
