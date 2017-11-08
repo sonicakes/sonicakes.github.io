@@ -38,9 +38,7 @@ body{
     color:brown;
 }
 
-.content{
-  background-color:white;
-}
+
 li{
 border:none;
 }
@@ -71,13 +69,13 @@ button a:hover{
 
 
 /* Zoom In #1 */
-img.img-thumbnail{
+img.img-fluid{
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
-img.img-thumbnail:hover{
+img.img-fluid:hover{
 	-webkit-transform: scale(1.2);
 	transform: scale(1.2);
   cursor: pointer;
