@@ -12,14 +12,24 @@
     src: url('Sprinklescolors.ttf') format("truetype");
 }
 body{
-  font-size: 16px;
-  font-family: 'Raleway', sans-serif;
-  background-image: url("images/ocean.jpg");
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  font-family: "Raleway";
+}
+#landing{
+  background-image: url("images/pine.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  min-height: 1000px;
+  width: 100%;
 }
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  min-height: 1000px;
+}
+
 .caption a:hover{
   text-decoration: none;
 
@@ -27,9 +37,7 @@ body{
 .caption a:hover{
     color:brown;
 }
-.monster{
-  background: rgba(0,0,0,0.5);
-}
+
 .content{
   background-color:white;
 }
@@ -53,17 +61,7 @@ p{
 ul.nav.justify-content-center {
   text-transform: uppercase;
 }
-/* Place text in the middle of the image */
-div.hero-text {
 
-    text-align: center;
-    color: white;
-padding-top: 5px;
-padding-bottom: : 5px;
-    margin-top: 10rem;
-    margin-bottom:  20rem;
-
-}
 button a:hover{
   text-decoration: none;
   color: white;

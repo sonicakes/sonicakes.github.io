@@ -22,67 +22,71 @@
 
 
 
+    <!-- Navbar -->
+    <nav style="opacity:0.8; " id="myNav"class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+    <a id="navBr"class="navbar-brand" style="font-family:'Sprinklescolors';color:white; font-size:2rem;" href="#">Sonia Parker</a>
+    <button class="navbar-toggler btn-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto" style= "font-family: 'Raleway'; font-weight:800;">
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#about-content">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#menu-content">PROJECTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#contact-content">CONTACT</a>
+        </li>
+      </ul>
+
+    </div>
+    </div>
+    </nav>
 
 
 
-
-<div id = 'hero-image'>
-  <div class="container monster">
-    <ul style="font-family: 'Raleway'; color:black;"class=" pt-2 nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link" href="#projects">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#aboutMe">About Me</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contactMe">Contact Me</a>
-      </li>
-
-    </ul>
-    <div class="row">
-      <div class="col">
-
-            <div class="hero-text">
-              <h1 style="font-family: 'Sprinklescolors';font-size: 52px; color:white;">I am Sonia Parker</h1>
-              <h3 style="font-family: 'Raleway';font-size: 22px; color:white;">Designer | Developer</h3>
+<div id = 'landing'>
+  <div class="overlay">
+    <div class="container">
+      <div class="row mt-5">
+      <div class="col p-2 text-light text-center" style="margin-top:25%;">
+              <h1 style="font-family: 'Sprinklescolors';color:white;" class="text-center display-3">I am Sonia Parker</h1>
+              <h3 style="font-family: 'Raleway'; color:white;" class="text-center">Designer | Developer</h3>
               <button type="button" style="font-family: 'Raleway'; border:solid 2px white;"class = "btn btn-info mb-3 mt-3"><a href=#projects style="color:white">Explore my works</a></button>
-            </div>
+
           </div>
         </div>
-
-
-</div>
-
-
-
+            </div>
+          </div>
+            </div>
 
 
 
-<div class = 'container monster'>
-  <div class="row">
-    <div class="col">
-      <div class="card mb-5 bg-light text-dark">
-  <div class="card-body">
-  <p class="lead text-justify"id="aboutMe">I am Sonia Parker and I live in Sydney, Australia. I was born in Russia and moved to Australia in 2015. I am a web designer and front-end developer with a degree in Digital Design (Curtin University). My professional skills include web design and development
-using HTML5 and CSS3, including Bootstrap 4; Java Script, including jQuery; Photoshop CS, Adobe Illustrator. </p>
-    <p class="lead text-justify">In my free time I enjoy writing short stories and photography (background photo here is made by me). I’m also into travelling, surfing, yoga, Zumba, reading, cooking and much more!</p>
-  <p class="lead text-justify">Scroll down to see my projects!</p>
-</div>
-</div>
-  </div>
-  </div>
-<div class="row">
-  <div class="col-8 mx-auto">
-  <div style="font-family: 'Raleway';" class="card bg-light border-light mb-2 text-dark">
-    <div class="card-body">
-<h4 class="text-center" id="projects">Projects I have completed:</h3>
-</div>
-  </div> -->
-</div>
-</div>
+            <!-- Explore content -->
+            <div id="aboutSection" class="bg-light text-dark">
+              <div class="container">
+                <div class="row">
+                  <div class="col p-3 text-dark">
 
-<div class = 'row'>
+                    <h1 class="text-center p-2">About Me</h1>
+                <p class="lead text-justify"id="aboutMe">I am Sonia Parker and I live in Sydney, Australia. I was born in Russia and moved to Australia in 2015. I am a web designer and front-end developer with a degree in Digital Design (Curtin University). My professional skills include web design and development
+              using HTML5 and CSS3, including Bootstrap 4; Java Script, including jQuery; Photoshop CS, Adobe Illustrator. </p>
+                  <p class="lead text-justify">In my free time I enjoy writing short stories and photography. I’m also into travelling, surfing, yoga, Zumba, reading, cooking and much more!</p>
+                <p class="lead text-justify">Scroll down to see my projects!</p>
+              </div>
+              </div>
+            </div>
+          </div>
+
+
+
+<div id="worksSection" class="bg-info">
+  <div class="container">
+<div class = 'row p-4'>
   <div class = 'col'>
       <a target="_blank" href = 'https://sonicakes.github.io/Local%20Weather%20App/'>
     <img src='images/weather.jpg' class = 'img-responsive img-thumbnail' alt = "Local Weather App">
@@ -120,11 +124,7 @@ using HTML5 and CSS3, including Bootstrap 4; Java Script, including jQuery; Phot
     </div>
   </div>
 </div>
-
-<div class = 'row'>
-
-
-
+<div class = 'row p-4'>
   <div class = 'col'>
     <a target="_blank" href="https://sonicakes.github.io/TwitchApiStreams/">
     <img src = 'images/twitch.jpg' class = 'img-responsive img-thumbnail' alt = 'Twitch Api Stream'>
@@ -162,14 +162,21 @@ using HTML5 and CSS3, including Bootstrap 4; Java Script, including jQuery; Phot
     </div>
   </div>
 </div>
+</div>
+</div> <!--end worksSection-->
+
+
+<!--Contact section-->
+<div id="contactForm" class="bg-dark">
+  <div class="container">
 <div style="font-family: 'Raleway';" class="row">
-  <div class="col-10 mx-auto bg-light text-dark mt-3 py-3 rounded">
+  <div class="col-8 mx-auto bg-success text-light m-3 py-3 rounded">
     <h3 class="text-center"id="contactMe">Contact Me</h3>
-    <form >
+    <form>
       <div class="form-group">
         <label for="exampleInputEmail1">Email address</label>
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        <small id="emailHelp" class="form-text text-muted">Your email adress is safe with me!</small>
+        <small id="emailHelp" class="form-text">Your email adress is safe with me!</small>
       </div>
       <div class="form-group">
    <label for="exampleFormControlTextarea1">Your message here</label>
@@ -179,15 +186,22 @@ using HTML5 and CSS3, including Bootstrap 4; Java Script, including jQuery; Phot
     </form>
 </div>
 </div>
+</div>
+</div>
+<!--Footer-->
+<div id="footer" class="bg-light text-dark">
+  <div class="container">
 <div class="row">
-  <div class="col">
-  <div class="card-footer text-center"style="color:white; font-family:Raleway;font-weight:700;">
+  <div class="col p-2">
+  <div class="text-center h4"style="font-family:Sprinklescolors;">
     Sonia Parker 2017
   </div>
+</div>
+</div>
+</div>
+</div>
 
-</div>
-</div>
-</div>
+
 
 
 </body>
