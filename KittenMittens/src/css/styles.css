@@ -24,7 +24,7 @@ body {
   background-position: center;
   min-height: 650px; }
   #showcase .primary-overlay {
-    background: rgba(84, 84, 84, 0.8);
+    background: rgba(255, 255, 255, 0.6);
     position: absolute;
     top: 0;
     left: 0;
