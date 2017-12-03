@@ -1,0 +1,30 @@
+#landing {
+  background-image: url("aust.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 1000px;
+  width: 100%;
+}
+
+  #landing .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    min-height: 1000px;
+  }
+
+.info{
+  margin-top: 10%;
+}
+
+.item{
+  border: 1px solid black;
+  background-color: #FFF;
+  color: #000;
+  list-style: none;
+}
+.postcode{
+  font-weight: bold;
+
+}

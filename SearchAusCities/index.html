@@ -4,13 +4,16 @@
     <meta charset="utf-8">
     <title>SearchAustralianCities</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="container">
+    <div id="landing">
+      <div class="overlay">
+    <div class="container info">
       <div class="row">
-        <div class="col">
+        <div class="col-6 m-auto text-white">
 
-<h1>Search through Australian Cities, States and their Postcodes</h1>
+<h1>Australian Cities, States and their Postcodes</h1>
     <form>
   <div class="form-group">
     <label class="col-form-label" for="insert">Type Australian city name or State to find out postcode</label>
@@ -19,6 +22,8 @@
     </ul>
   </div>
 </form>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -39,9 +44,9 @@ function displayMatches(){
 const matchedArray = findMatches(this.value, cities);
 const html = matchedArray.map(place =>{
   return `
-  <li>
+  <li class = "item p-3 ">
   <span class= "name"> ${place.place_name}, ${place.state_name} </span>
-    <span class= "postcode"> ${place.postcode}</span>
+    <span class= "postcode self-align-left"> ${place.postcode}</span>
   </li>
   `;
 }).join("");
