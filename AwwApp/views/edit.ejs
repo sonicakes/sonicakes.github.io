@@ -1,0 +1,24 @@
+<% include ./partials/header %>
+<div class="container">
+<div class="row">
+  <div class="col-md-8 mt-5">
+    <h4 class = "mt-5">Edit Your Post</h4>
+    <form class = "bg-warning text-white p-3 " action="/awws/<%=aww._id%>?_method=PUT" method="post">
+  <div class="form-group">
+    <label for="title">Title</label>
+    <input name="aww[title]"type="text" class="form-control" value="<%=aww.title %>" id="title" aria-describedby="title" placeholder="Enter Name of Your Awwesome Pet">
+  </div>
+  <div class="form-group">
+    <label for="image">Image</label>
+    <input name="aww[image]"type="text" class="form-control" id="image" value="<%=aww.image %>" placeholder="Enter Image Url">
+  </div>
+  <div class="form-group">
+   <label for="content">Post Content</label>
+   <textarea class="form-control" id="content" rows="3" name="aww[body]" placeholder="Your Edits Here">"<%=aww.body %>"></textarea>
+ </div>
+  <button type="submit" class="btn btn-info">Submit</button>
+</form>
+  </div>
+</div>
+</div>
+<% include ./partials/footer %>

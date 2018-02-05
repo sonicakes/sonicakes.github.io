@@ -1,0 +1,24 @@
+<% include ./partials/header %>
+<div class="container">
+<div class="row">
+  <div class="col-md-8 mt-5">
+    <h4 class = "mt-5">Create a Post about your Awwwesome friend, add the image and tell us TL;DR why it deserved to be on r/aww!</h4>
+    <form class = "bg-info text-white p-3 " action="/awws" method="post">
+  <div class="form-group">
+    <label for="title">Title</label>
+    <input name="aww[title]"type="text" class="form-control" id="title" aria-describedby="title" placeholder="Enter Name of Your Awwesome Pet">
+  </div>
+  <div class="form-group">
+    <label for="image">Image</label>
+    <input name="aww[image]"type="text" class="form-control" id="image" placeholder="Enter Image Url">
+  </div>
+  <div class="form-group">
+   <label for="content">Post Content</label>
+   <textarea class="form-control" id="content" rows="3" name="aww[body]" placeholder="Add Your Description Here"></textarea>
+ </div>
+  <button type="submit" class="btn btn-success">Submit</button>
+</form>
+  </div>
+</div>
+</div>
+<% include ./partials/footer %>

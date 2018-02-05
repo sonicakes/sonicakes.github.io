@@ -1,0 +1,24 @@
+<% include partials/header %>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 m-auto">
+      <div class="card mt-5">
+        <div class="card-footer text-muted">
+          <%= aww.created.toDateString() %>
+        </div>
+        <img class="card-img-top" src="<%= aww.image %>" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"><span style="font-family: 'Concert One', cursive; color: #FF1493;"><i class="fa fa-heart" aria-hidden="true"></i>Aww </span><%= aww.title %></h5>
+          <p class="card-text"><%- aww.body %></p>
+          <a href="/awws/<%=aww._id%>/edit" class="btn btn-warning float-left text-white">Edit Post</a>
+              <form action="/awws/<%=aww._id%>?_method=DELETE" method="post">
+        <button type="submit" class="btn btn-danger float-right">Delete Post</button>
+              </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<% include ./partials/footer %>
