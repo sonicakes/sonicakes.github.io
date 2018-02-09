@@ -14,7 +14,7 @@
 <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <title>Sonia Parker's Portfolio</title>
 
-    <link href='styles.css' rel='stylesheet'/>
+    <link href='stylesheets/styles.css' rel='stylesheet'/>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,800" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   </head>
@@ -37,7 +37,7 @@
           <a class="nav-link text-light" href="#about">ABOUT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#projects">PROJECTS</a>
+          <a class="nav-link text-light" href="#proj">PROJECTS</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-light" href="#contact">CONTACT</a>
@@ -254,11 +254,11 @@
       </div>
       <div class="form-group">
    <label for="exampleFormControlTextarea1">Your message here</label>
-   <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Type in your message" rows="3"></textarea>
+   <textarea name="editor1"class="form-control" id="exampleFormControlTextarea1" placeholder="Type in your message"></textarea>
  </div>
       <button type="submit" class="btn btn-info">Submit</button>
     </form>
-    <p class=" m-2 p-2 text-white">* In fact, this form is not working yet. It is just a placeholder. However, I'm working on improving my back-end skills so I can make your message sent to me via email and I would get back to you ASAP. As you may know, it is probably not the best idea to leave personal email/phone info on github-hosted website. Please contact me via LinkedIn or GitHub for now! Cheers :)</p>
+    <p class=" m-2 p-2 text-white">* In fact, this form is not working yet. It is just a placeholder. However, I'm working on improving my back-end skills so I can make your message sent to me via email and I would get back to you ASAP. As you may know, it is probably not the best idea to leave personal email/phone info on github-hosted website. Please contact me via LinkedIn or GitHub buttons below for now! Cheers :)</p>
 </div>
 </div>
 </div>
@@ -284,10 +284,14 @@
 
 
 
-<script src = 'script.js'>
+<script src = 'scripts/script.js'>
 </script>
-<script src="navbar-fixed.js">
+<script src="scripts/navbar-fixed.js">
 </script>
+<script src="https://cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>
+<script>
+    CKEDITOR.replace( 'editor1' );
+  </script>
 
 </body>
 </html>

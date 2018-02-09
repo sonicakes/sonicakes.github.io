@@ -14,7 +14,6 @@ window.addEventListener("scroll", function() {
         $("#navBr").removeClass('scroll-down');
 
 
-    // }
 }
 });
 });

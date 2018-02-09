@@ -1,21 +1,21 @@
 
 @font-face {
     font-family: "Sunshine Boulevard";
-    src: url('Sunshine-Boulevard.ttf') format("truetype");
+    src: url('../fonts/Sunshine-Boulevard.ttf') format("truetype");
 }
 @font-face {
     font-family: "Moonhouse";
-    src: url('moonhouse.ttf') format("truetype");
+    src: url('../fonts/moonhouse.ttf') format("truetype");
 }
 @font-face {
     font-family: "Sprinklescolors";
-    src: url('Sprinklescolors.ttf') format("truetype");
+    src: url('../fonts/Sprinklescolors.ttf') format("truetype");
 }
 body{
   font-family: "Raleway";
 }
 #landing{
-  background-image: url("images/pine.jpg");
+  background-image: url("../images/pine.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
