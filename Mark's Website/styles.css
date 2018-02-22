@@ -19,8 +19,8 @@ color:white;
 #landing{
     /* view height 100% of the viewport */
     height: 100%;
-    background-image:
-         url("img/sky1.jpg");
+    /* background-image:
+         url("img/sky1.jpg"); */
     background-size: cover;
     /* background-position: 
     position: relative; */
@@ -168,3 +168,14 @@ transform: translate(0);
 
 
 } */
+#video-background {
+    /*  making the video fullscreen  */
+      position: fixed;
+      right: 0; 
+      bottom: 0;
+      min-width: 100%; 
+      min-height: 100%;
+      width: auto; 
+      height: auto;
+      z-index: -100;
+    }
