@@ -108,6 +108,12 @@ font-weight: 700;
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0,0,0,.2);
 }
+exclusive:hover{
+    box-shadow: 0 10px 20px rgba(255, 255, 255, .2);
+}
+exclusive:active{
+    box-shadow: 0 10px 20px rgba(255, 255, 255, .2);
+}
 .button:active{
     transform: translateY(-1px);
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
