@@ -1,18 +1,20 @@
+@font-face {
+  font-family: "Sunshine Boulevard";
+  src: url('../fonts/Sunshine-Boulevard.ttf') format("truetype");
+}
 
 @font-face {
-    font-family: "Sunshine Boulevard";
-    src: url('../fonts/Sunshine-Boulevard.ttf') format("truetype");
+  font-family: "Moonhouse";
+  src: url('../fonts/moonhouse.ttf') format("truetype");
 }
+
 @font-face {
-    font-family: "Moonhouse";
-    src: url('../fonts/moonhouse.ttf') format("truetype");
+  font-family: "Sprinklescolors";
+  src: url('../fonts/Sprinklescolors.ttf') format("truetype");
 }
-@font-face {
-    font-family: "Sprinklescolors";
-    src: url('../fonts/Sprinklescolors.ttf') format("truetype");
-}
-body{
-  font-family: "Raleway";
+
+body {
+  font-family: "Raleway", sans-serif;
 }
 #landing{
   background-image: url("../images/pine.jpg");
@@ -30,53 +32,51 @@ body{
   min-height: 1000px;
 }
 
-.caption a:hover{
+.caption a:hover {
   text-decoration: none;
-
-}
-.caption a:hover{
-    color:brown;
 }
 
-
-li{
-border:none;
+.caption a:hover {
+  color: brown;
 }
 
-a.nav-link{
-  color:white;
-}
-a.nav-link:hover{
-  color:brown;
+li {
+  border: none;
 }
 
-p{
+a.nav-link {
+  color: white;
+}
+
+a.nav-link:hover {
+  color: brown;
+}
+
+p {
   color: black;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
 }
-
 
 ul.nav.justify-content-center {
   text-transform: uppercase;
 }
 
-button a:hover{
+button a:hover {
   text-decoration: none;
   color: white;
 }
 
-
-
-
 /* Zoom In #1 */
-img.img-fluid{
-	-webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+
+img.img-fluid {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
-img.img-fluid:hover{
-	-webkit-transform: scale(1.2);
-	transform: scale(1.2);
+
+img.img-fluid:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
   cursor: pointer;
 }
