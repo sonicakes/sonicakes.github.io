@@ -72,14 +72,19 @@
   <div id="aboutSection" class="bg-light text-dark">
     <div class="container">
       <div class="row">
-        <div class="col p-3 text-dark">
+        <!-- image -->
+        <div class="col-sm-4 col-md-4 p-2">
+          <img src="images/just-me.jpg" class="rounded-circle img-fluid" alt="picture of Sonia Parker">
+        </div>
+
+        <div class="col-12 col-md-8 p-3 text-dark">
 
           <h1 id="about" class="text-center p-2">About Me</h1>
 
-          <p class="lead text-justify" id="aboutMe">I am Sonia Parker and I live in Sydney, Australia. I was born in Russia and moved to Australia in 2015. I am a Web Designer and Full-Stack Developer with a Bachelor's Degree in Digital Design from Curtin University, Australia. My professional
-            skills include UI/UX Web Design and Full-Stack Web Development using HTML5 and CSS3, including Bootstrap 4; Java Script, including jQuery; MEAN stack (MongoDB, Express JS, Angular JS, Node JS), Semantic UI, Photoshop CS, Adobe Illustrator.
-            My motto: "Joining design and technology". As well as above mentioned skills, my background includes double-major Bachelor's degree in International Economics and Linguistics. </p>
-          <p class="lead text-justify">In my free time I enjoy going to the beach and reading thrillers. I’m also into travelling, surfing, yoga, Zumba, cooking and much more!</p>
+          <p class="lead text-justify" id="aboutMe">
+            Originally from Russia, I completed a double degree in International Economics and Linguistics. Since moving to Australia, I have continued my studies through Open Universities to get the equivalent of my degree, it was through these studies that I was
+            introduced to Digital Design and Programming. Recently I completed 3-month long Web Development Immersive course at General Assembly, Sydney to gain deeper understanding of programming concepts.
+          </p>
           <p class="lead text-justify">Scroll down to see my projects!</p>
         </div>
       </div>
@@ -93,6 +98,95 @@
         <div class="col p-3">
           <h1 class="text-center p-2 text-light">Projects I have completed:</h1>
         </div>
+
+        <div class="card-deck">
+
+          <div class="card m-3">
+            <a target="_blank" href="https://sonicakes.github.io/tic-tac-toe/">
+              <img class="card-img-top" src="images/tic-tac-toe.png" alt="tic tac toe screenshot">
+            </a>
+            <div class="card-body">
+              <a target="_blank" href="https://sonicakes.github.io/tic-tac-toe/">
+                <h4 class="card-title">Tic Tac Toe Game</h4>
+              </a>
+              <p class="card-text">Classic Tic Toe game, with an option to switch between players and display the result on the screen. Game was built using HTML, CSS, JavaScript and jQuery</p>
+            </div>
+          </div>
+
+          <div class="card m-3">
+            <a target="_blank" href="https://blooming-bastion-80252.herokuapp.com/">
+              <img class="card-img-top" src="images/holiday.png" alt="holiday app preview">
+            </a>
+            <div class="card-body">
+              <a target="_blank" href="https://blooming-bastion-80252.herokuapp.com/">
+                <h4 class="card-title">Holiday App</h4>
+              </a>
+              <p class="card-text">
+                <p>Holiday App is a place for people to store their holiday ideas and kickstart their travel planning. Idea for the App came due to my obsession with planning, and love of travelling. I wanted to create a place for saving my ideas, nice photos
+                  and locations for my future travels.The app uses Rails 5.2.1 as Back End Handling and PostgreSQL as database.</p>
+            </div>
+          </div>
+          <div class="card m-3">
+            <a target="_blank" href="https://inkspace.herokuapp.com/">
+              <img class="card-img-top" src="images/tattoo.png" alt="Ink Space App preview">
+            </a>
+            <div class="card-body">
+              <a target="_blank" href="https://inkspace.herokuapp.com/">
+                <h4 class="card-title">Ink Space</h4>
+              </a>
+              <p class="card-text">
+                <p> Ink Space is a place for freelance tatoo artists to display their creations, specify the time of their visit to Sydney and welcome eager customers. As a client, you can preview artist's work and make a booking. For fun, you can sketch
+                  your own tatoo and save it to your computer. Rails, p5.js, Geocoder, CLoudinary.</p>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="card-deck">
+
+          <div class="card m-3">
+            <a target="_blank" href="https://taste-of-russia.herokuapp.com/">
+              <img class="card-img-top" src="images/taste-russia.png" alt="taste-of-russia screenshot">
+            </a>
+            <div class="card-body">
+              <a target="_blank" href="https://taste-of-russia.herokuapp.com/">
+                <h4 class="card-title">Taste of Russia</h4>
+              </a>
+              <p class="card-text">Taste of Russia is a tour agency specializing on exclusive tours to Russia for Australians. Back-end: Rails, front-end:Bootstrap, DB:Postgres. TDD: Models and Controllers using RSPEC. Payment processing using Stripe. Display Current and
+                Average temperature info for each city via AJAX and Weather API.</p>
+            </div>
+          </div>
+
+          <div class="card m-3">
+            <a target="_blank" href="#">
+              <img class="card-img-top" src="images/comesoon.jpg" alt="coming soon">
+            </a>
+            <div class="card-body">
+              <a target="_blank" href="#">
+                <h4 class="card-title">Coming soon</h4>
+              </a>
+              <p class="card-text">Coming soon!</p>
+
+            </div>
+          </div>
+          <div class="card m-3">
+            <a target="_blank" href="#">
+              <img class="card-img-top" src="images/comesoon.jpg" alt="coming soon">
+            </a>
+            <div class="card-body">
+              <a target="_blank" href="#">
+                <h4 class="card-title">Coming soon</h4>
+              </a>
+              <p class="card-text">Coming soon!</p>
+
+            </div>
+          </div>
+
+        </div>
+
+
+
         <div class="card-deck">
           <div class="card m-3">
             <a target="_blank" href='https://sonicakes.github.io/local-weather-app/index.html'>
@@ -247,10 +341,9 @@
                 <a target="_blank" href="https://sonicakes.github.io/mark-serrano/">
                   <h4 class="card-title">Mark Serrano Portfolio</h4>
                 </a>
-                <p class="card-text">I am currently implementing a website for my friend Mark Serrano, a talented Canadian designer, illustrator and letterer. You can find his current website at http://www.markemilserrano.com/. He is using a basic squarespace-based theme,
-                  which does not really give any credit to his amazing works. I have volunteered to re-make his website using HTML, CSS, Sass, Bootstrap 4 and JavaScript. In the long term, I am looking at introducing back-end system to handle picture
-                  uploading by Mark, comment addition by users, contact form that sends email to Mark and a shopping cart system with a secure credit card operations interface. I have produced several mockups of alternative website design and Mark agreed
-                  on the one I'm working at the moment. Logo and pictures are subject to copyright of Mark Serrano, Toronto.</p>
+                <p class="card-text">I am currently implementing a website for my friend Mark Serrano, a talented Canadian designer, illustrator and letterer. He is using a basic squarespace-based theme, which does not really give any credit to his amazing works. I have volunteered
+                  to re-make his website. In the long term, I am looking at introducing back-end system to handle picture uploading by Mark, comment addition by users, contact form that sends email to Mark and a shopping cart system with a secure credit
+                  card operations interface.
               </div>
             </div>
             <div class="card m-3">
@@ -289,48 +382,6 @@
           </div>
 
 
-          <div class="card-deck">
-
-            <div class="card m-3">
-              <a target="_blank" href="https://sonicakes.github.io/tic-tac-toe/">
-                <img class="card-img-top" src="images/tic-tac-toe.png" alt="tic tac toe screenshot">
-              </a>
-              <div class="card-body">
-                <a target="_blank" href="https://sonicakes.github.io/tic-tac-toe/">
-                  <h4 class="card-title">Tic Tac Toe Game</h4>
-                </a>
-                <p class="card-text">Classic Tic Toe game, with an option to switch between players and display the result on the screen. Game was built using HTML, CSS, JavaScript and jQuery</p>
-              </div>
-            </div>
-
-            <div class="card m-3">
-              <a target="_blank" href="https://blooming-bastion-80252.herokuapp.com/">
-                <img class="card-img-top" src="images/holiday.png" alt="holiday app preview">
-              </a>
-              <div class="card-body">
-                <a target="_blank" href="https://blooming-bastion-80252.herokuapp.com/">
-                  <h4 class="card-title">Holiday App</h4>
-                </a>
-                <p class="card-text">
-                  <p>Holiday App is a place for people to store their holiday ideas and kickstart their travel planning. Idea for the App came due to my obsession with planning, and love of travelling. I wanted to create a place for saving my ideas, nice
-                    photos and locations for my future travels.The app uses Rails 5.2.1 as Back End Handling and PostgreSQL as database.</p>
-              </div>
-            </div>
-            <div class="card m-3">
-              <a target="_blank" href="https://inkspace.herokuapp.com/">
-                <img class="card-img-top" src="images/tattoo.png" alt="Ink Space App preview">
-              </a>
-              <div class="card-body">
-                <a target="_blank" href="https://inkspace.herokuapp.com/">
-                  <h4 class="card-title">Ink Space</h4>
-                </a>
-                <p class="card-text">
-                  <p> Ink Space is a place for freelance tatoo artists to display their creations, specify the time of their visit to Sydney and welcome eager customers. As a client, you can preview artist's work and make a booking. For fun, you can sketch
-                    your own tatoo and save it to your computer. Rails, p5.js, Geocoder, CLoudinary.</p>
-              </div>
-            </div>
-
-          </div>
 
 
 
@@ -342,43 +393,42 @@
 
 
   <!--Contact section-->
-  <div id="contact" class="bg-light">
+  <div id="contact" class="bg-light text-dark">
     <div class="container">
       <div style="font-family: 'Raleway';" class="row">
-        <div class="col-sm-12 col-lg-8 mx-auto bg-success text-light m-3 py-3 rounded">
+        <div class="col-12 py-3">
           <h3 class="text-center" id="contactMe">Contact Me</h3>
-          <form>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-              <small id="emailHelp" class="form-text">Your email adress is safe with me!</small>
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Your message here</label>
-              <textarea name="editor1" class="form-control" id="exampleFormControlTextarea1" placeholder="Type in your message"></textarea>
-            </div>
-            <button type="submit" class="btn btn-info">Submit</button>
-          </form>
-          <p class=" m-2 p-2 text-white">* In fact, this form is not working yet. It is just a placeholder. However, I'm working on improving my back-end skills so I can make your message sent to me via email and I would get back to you ASAP. As you may know, it is probably not the
-            best idea to leave personal email/phone info on github-hosted website. Please contact me via LinkedIn or GitHub buttons below for now! Cheers :)</p>
+        </div>
+      </div>
+      <div class="row p-3">
+        <div class="col-12 col-md-4 text-center">
+          <a target="_blank" href="https://www.linkedin.com/in/sonia-parker-1207/"> <i class="text-dark fab fa-2x fa-linkedin"></i> </a>
+
+        </div>
+
+        <div class="col-12 col-md-4 text-center">
+
+          <a target="_blank" href="https://github.com/sonicakes"> <i class="text-dark fab fa-github-square fa-2x"></i> </a>
+        </div>
+        <div class="col-12 col-md-4 text-center">
+
+          <a class="text-center" target="_blank" href="https://twitter.com/sonicakes1207"> <i class="text-dark fab fa-twitter fa-2x"></i> </a>
         </div>
       </div>
     </div>
   </div>
+  </div>
+  </div>
+
   <!--Footer-->
   <div id="footer" class="bg-dark p-2 text-light">
     <div class="container">
       <div class="row">
-        <div class="col text-white">
-          <a target="_blank" href="https://www.linkedin.com/in/sonia-parker-b71987144/"> <i class=" text-white fab fa-2x fa-linkedin"></i> </a>
-        </div>
+
         <div class="col ">
-          <p class=" h4" style="font-family:Sprinklescolors;">
+          <p class=" text-center h4" style="font-family:Sprinklescolors;">
             Sonia Parker 2018
           </p>
-        </div>
-        <div class="col text-white">
-          <a target="_blank" href="https://github.com/sonicakes"> <i class=" text-white fab fa-github-square fa-2x"></i> </a>
         </div>
       </div>
     </div>
@@ -390,10 +440,7 @@
   </script>
   <script src="scripts/navbar-fixed.js">
   </script>
-  <script src="https://cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>
-  <script>
-    CKEDITOR.replace('editor1');
-  </script>
+
 
 </body>
 
